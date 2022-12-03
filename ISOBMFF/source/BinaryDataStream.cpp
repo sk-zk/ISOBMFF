@@ -33,6 +33,7 @@
 #include <vector>
 #include <ISOBMFF/BinaryDataStream.hpp>
 #include <ISOBMFF/Casts.hpp>
+#include <cstring>
 
 namespace ISOBMFF
 {

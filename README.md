@@ -1,3 +1,9 @@
+**Fork of [DigiDNA/ISOBMFF](https://github.com/DigiDNA/ISOBMFF) which builds with g++ instead of clang, making it compatible with scikit-build.**
+
+**Original description below.**
+
+----
+
 ISOBMFF
 =======
 

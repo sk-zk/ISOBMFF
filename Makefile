@@ -45,14 +45,14 @@ EXT_CPP             := .cpp
 EXT_M               := .m
 EXT_MM              := .mm
 EXT_H               := .hpp
-CC                  := clang
+CC                  := g++
 FLAGS_OPTIM         := Os
 FLAGS_WARN          := -Werror -Wall
 FLAGS_STD_C         := c99
 FLAGS_STD_CPP       := c++14
 FLAGS_OTHER         := -fno-strict-aliasing
 FLAGS_C             := 
-FLAGS_CPP           := -x c++ -stdlib=libc++
+FLAGS_CPP           := -x c++
 FLAGS_M             := -fobjc-arc
 FLAGS_MM            := -fobjc-arc
 XCODE_PROJECT       := ISOBMFF.xcodeproj
