@@ -70,8 +70,6 @@ FILES_M_EXCLUDE     :=
 FILES_MM            := 
 FILES_MM_EXCLUDE    := 
 
-LIBS                := -lc++
-
 FILES               := $(filter-out $(FILES_C_EXCLUDE),$(FILES_C))      \
                        $(filter-out $(FILES_CPP_EXCLUDE),$(FILES_CPP))  \
                        $(filter-out $(FILES_M_EXCLUDE),$(FILES_M))      \
